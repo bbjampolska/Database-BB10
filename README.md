@@ -11,7 +11,7 @@ SQL				- HTML5 SQL database
 
 In BIN folder you can find executables which you can run using simulator or BB 10 Dev Alpha devices.
 
-==========================
+---------------------------------------
 
 
 Prosta baza danych dla BB10
