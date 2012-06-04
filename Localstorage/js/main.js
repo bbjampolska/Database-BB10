@@ -29,7 +29,7 @@ function SaveText() {
 }
 
 function GetText() {
-	//  Initiating our database
+	// Initiating our database
 	// Inicjowanie bazy danych
 	var databaseElement = localStorage.getItem("databaseName");
 	
@@ -37,8 +37,8 @@ function GetText() {
 	// Sprawdzanie czy element istnieje
 	if (databaseElement) {
 		
-		//Set the text value to input element
-		//Ustaw tekst elementu input
+		// Set the text value to input element
+		// Ustaw tekst elementu input
 		document.getElementById("inputElement").value = databaseElement;
 	} else {
 		// Or display an error when element is not exsist
@@ -59,7 +59,7 @@ function ClearText() {
 }
 
 // Sample function to clear input field after operation.
-// Prost funcka czyszcząca pole input po wykonaniu danej operacji.
+// Prost funkcja czyszcząca pole input po wykonaniu danej operacji.
 
 function clearInput() {
 	
