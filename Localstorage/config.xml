@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0.0" id="sampleDatabaseApp">
+
+  <author href="http://www.bbjam.pl/" rim:copyright="Copyright 2012 BB Jam Polska">BB Jam Polska</author>
+
+  <name>Database application.</name>
+
+  <description>
+    A sample application to demonstrate some of the local.storage database possibilities.
+  </description>
+  
+  <icon src="icon.png"/>
+
+  <content src="index.html" />
+
+</widget>
