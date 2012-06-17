@@ -1,5 +1,5 @@
 /*
-* Copyright 2010-2011 BB Jam Polska (bbjam.pl).
+* Copyright 2012 BB Jam Polska (bbjam.pl).
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ function SaveText() {
 	var inputResult =  document.getElementById("inputElement").value;
 	
 	// Next we need to create database element and save our text.
-	// Następinie tworzymy bazę danych i zapisujemy nasz tekst.
+	// Następnie tworzymy bazę danych i zapisujemy nasz tekst.
 	localStorage.setItem("databaseName", inputResult);
 	
 	alert("Element saved.");
